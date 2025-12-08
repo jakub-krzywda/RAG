@@ -20,7 +20,7 @@ EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Konfiguracja LLM (Bielik w Ollamie)
 OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "bielik-1.5b-v3.0-instruct:Q8_0"  # dostosuj do swojej nazwy modelu
+OLLAMA_MODEL = "SpeakLeash/bielik-1.5b-v3.0-instruct:Q8_0"
 
 
 class AskRequest(BaseModel):
